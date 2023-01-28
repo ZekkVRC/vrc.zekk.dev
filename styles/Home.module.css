@@ -81,7 +81,7 @@
 }
 
 .center::before {
-  background: var(--secondary-glow);
+  /* background: var(--secondary-glow); */
   border-radius: 50%;
   width: 480px;
   height: 360px;
@@ -259,12 +259,12 @@
 
 @media (prefers-color-scheme: dark) {
   .vercelLogo {
-    filter: invert(1);
+    /* filter: invert(1); */
   }
 
   .logo,
   .thirteen img {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+    /* filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70); */
   }
 }
 
